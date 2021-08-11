@@ -8,10 +8,10 @@ function About(props) {
       <div className="cover-bg p-3 p-lg-4 text-white">
         <div className="row">
           <div className="col-lg-4 col-md-5">
-            <div className="avatar hover-effect bg-white shadow-sm p-1">
+            <div className="avatar hover-effect bg-white shadow-sm">
               <img
-                src="static/images/avatar.jpg"
-                width="200"
+                src={pinfo.display_picture}
+                width="150"
                 height="200"
                 alt="User name"
               />
