@@ -8,17 +8,25 @@ export const myprofile = {
   cv_link: "static/cv.pdf",
   display_picture: "static/images/avatar.jfif",
   about_me:
-    "Hello! I’m Ishwar Bhat. I am passionate programmer who loves to code. I have more than 3 years of experience, specializing in Object-Oriented Design. Strong engineering professional in shaping business needs into engineering solutions by guaranteeing high quality of code, accessibility, security and scalability.",
+    "Hello! I’m Ishwar Bhat. I am passionate programmer who loves to code. I am a professional python developer with 4 years of experience, specializing in Object-Oriented Design. Strong engineering professional in shaping business needs into engineering solutions by guaranteeing high quality of code, accessibility, security and scalability.",
   navigations: [
     {
       title: "Github",
       pagelink: "https://github.com/ishwar-bhat",
       iclass: "fab fa-github",
+      color: "black",
     },
     {
       title: "LinkedIn",
       pagelink: "https://linkedin.com/in/ishwar-bhat-b78b51146",
       iclass: "fab fa-linkedin",
+      color: "#007bb6",
+    },
+    {
+      title: "Upwork",
+      pagelink: "https://www.upwork.com/freelancers/~0135e733855735b4db",
+      iclass: "ic-upwork-circle",
+      color: "#25c541",
     },
   ],
   professionalSkills: [

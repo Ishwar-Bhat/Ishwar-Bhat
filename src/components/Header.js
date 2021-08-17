@@ -1,19 +1,10 @@
 import React, { useContext } from "react";
-import Icons from "./common/Icons";
+import NavIcons from "./common/NavIcons";
 import { ProfileInfo } from "./Profile";
 
 function Header() {
   const pinfo = useContext(ProfileInfo);
   const title = pinfo.name;
-
-  const navIcons = pinfo.navigations.map((item, index) => (
-    <Icons
-      title={item.title}
-      pagelink={item.pagelink}
-      iclass={item.iclass}
-      key={index}
-    />
-  ));
 
   return (
     <header className="d-print-none">
@@ -22,7 +13,9 @@ function Header() {
           <h1 className="site-title mb-0"> {title} </h1>
           <div className="site-nav">
             <nav role="navigation">
-              <ul className="nav justify-content-center">{navIcons}</ul>
+              <ul className="nav justify-content-center">
+                <NavIcons />
+              </ul>
             </nav>
           </div>
         </div>

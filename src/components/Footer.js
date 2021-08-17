@@ -1,19 +1,10 @@
 import React, { useContext } from "react";
 
 import { ProfileInfo } from "./Profile";
-import Icons from "./common/Icons";
+import NavIcons from "./common/NavIcons";
 
 function Footer(props) {
   const pinfo = useContext(ProfileInfo);
-
-  const navIcons = pinfo.navigations.map((item, index) => (
-    <Icons
-      title={item.title}
-      pagelink={item.pagelink}
-      iclass={item.iclass}
-      key={index}
-    />
-  ));
 
   return (
     <footer className="pt-4 pb-4 text-muted text-center d-print-none">
@@ -22,7 +13,9 @@ function Footer(props) {
           <div className="h4">{pinfo.name}</div>
           <div className="footer-nav">
             <nav role="navigation">
-              <ul className="nav justify-content-center">{navIcons}</ul>
+              <ul className="nav justify-content-center">
+                <NavIcons />
+              </ul>
             </nav>
           </div>
         </div>
