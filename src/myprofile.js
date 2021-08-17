@@ -6,7 +6,7 @@ export const myprofile = {
   address: "Yellapura, Karnataka - 581347 IN",
   designation: "Software Engineer",
   cv_link: "static/cv.pdf",
-  display_picture: "static/images/avatar.jpeg",
+  display_picture: "static/images/avatar.jfif",
   about_me:
     "Hello! I’m Ishwar Bhat. I am passionate programmer who loves to code. I have more than 3 years of experience, specializing in Object-Oriented Design. Strong engineering professional in shaping business needs into engineering solutions by guaranteeing high quality of code, accessibility, security and scalability.",
   navigations: [

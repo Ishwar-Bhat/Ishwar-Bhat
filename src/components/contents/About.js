@@ -9,12 +9,7 @@ function About(props) {
         <div className="row">
           <div className="col-lg-4 col-md-5">
             <div className="avatar hover-effect bg-white shadow-sm">
-              <img
-                src={pinfo.display_picture}
-                width="150"
-                height="200"
-                alt="User name"
-              />
+              <img src={pinfo.display_picture} alt="User name" />
             </div>
           </div>
           <div className="col-lg-8 col-md-7 text-center text-md-start">
