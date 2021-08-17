@@ -104,17 +104,21 @@ html {
 }
 
 .avatar {
-  max-width: 150px;
-  max-height: 200px;
+  width: 160px;
+  height: 180px;
   margin-top: 20px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
 }
 
 .avatar img {
   /* Safari 6.0 - 9.0 */
+  width: 160px;
+  height: 180px;
   filter: grayscale(100%);
+  border-radius: 50%;
 }
 
 footer a:not(.nav-link) {
